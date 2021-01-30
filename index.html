@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+	<title>OverWatch Mens Store | E-commerce Website Design</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<div class="header">
+		<div class="container">
+		
+		<div class="navbar">
+			<div class="logo">
+				<img src="logo.png" width="150px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href=""><-</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="products.html">Product</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="account.html">Account</a></li>
+				</ul>
+			</nav>
+			<img src="court.png" width="30px" height="30px">
+			<img src="menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+
+		<div class="row">
+					<div class="col-2">
+						<h1>Give Your Workout <br>A New Style!</h1>
+						<p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
+						<a href="calculator.html" class="btn">Explore Now &#8594;</a>
+					</div>
+					<div class="col-2">
+						<img src="players.png">
+					</div>
+		</div>
+
+
+
+
+
+		</div>
+	</div>
+
+	<!-------- featured categories ------->
+
+
+	<div class="categories">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<img src="cat-1.jpg" id="caty">
+				</div>
+				<div class="col-3">
+					<img src="cat-2.jpg" id="caty">
+				</div>
+				<div class="col-3">
+					<img src="cat-3.jpg" id="caty">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------- featured Products ------->
+
+	<div class="small-container">
+		<h2 id="title">Featured Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="product-1.jpg">
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$340.00</p>
+			</div>
+			<div class="col-4">
+				<img src="product-2.jpg">
+				<h4>Shoes</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$89.00</p>
+			</div>
+			<div class="col-4">
+				<img src="product-3.jpg">
+				<h4>Watch</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$137.59</p>
+			</div>
+			<div class="col-4">
+				<img src="product-4.jpg">
+				<h4>Goggles</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$70.85</p>
+			</div>
+		</div>
+		<h2 id="title">Latest Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="product-5.jpg">
+				<h4>Bracelets</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$50.00</p>
+			</div>
+			<div class="col-4">
+				<img src="product-6.jpg">
+				<h4>Belt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$60.00</p>
+			</div>
+			<div class="col-4">
+				<img src="product-7.jpg">
+				<h4>Jeans</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$245.59</p>
+			</div>
+			<div class="col-4">
+				<img src="product-8.jpg">
+				<h4>Locket</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>$50.85</p>
+			</div>
+		</div>
+	</div>
+
+<!----------- offer ------------->
+
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="exclusive.jpg">
+			</div>
+			<div class="col-2">
+				<p>Exclusively Available On OverWatch Mens Store</p>
+				<h1>Smart Band 4</h1>
+				<small>This is MI digital Fitness Band.</small><br>
+				<a href="exclusive.html" class="btn">Buy Now &#8594;</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!------testimonial------>
+
+
+	<div class="testimonial">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					
+					<p>Hello Hope you like my WebSite.</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!----------  brands ----------->
+
+
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="godrej.png">
+				</div>
+				<div class="col-5">
+					<img src="oppo.png">
+				</div>
+				<div class="col-5">
+					<img src="coc.png">
+				</div>
+				<div class="col-5">
+					<img src="pp.png">
+				</div>
+				<div class="col-5">
+					<img src="mit.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!---------- footer -------->
+
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and IOS mobile phone</p>
+					<div class="app-logo">
+						<img src="playstore.png">
+						<img src="appstore.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="logo.png" width="150px">
+					<p>Our Purpose Is To Deliver Best Products At Your Door. </p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Usefull Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Help And Support</li>
+						<li>Return Policy</li>
+						<li>Discounts Available</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us on</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2021 - OverWatch Mens Store</p>
+		</div>
+	</div>
+
+
+<!----------- js toggle menu --------->
+
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+
+		MenuItems.style.maxHeight = "0px";
+
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+				else{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+
+
+
+
+
+
+
+</body>
+</html>
